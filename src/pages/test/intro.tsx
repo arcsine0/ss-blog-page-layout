@@ -5,9 +5,8 @@ import {
     SimpleImage,
     ImageDesc,
     SimpleHeading,
-} from "../../components/intro";
-
-import { ScrollingBanner } from "../../components/image";
+    ScrollingBanner,
+} from "../../components/modules";
 
 import "../../styles/global.css";
 

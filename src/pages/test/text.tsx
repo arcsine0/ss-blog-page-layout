@@ -1,9 +1,9 @@
 import React from "react";
 
 import {
-    SimpleHeading
-} from "../../components/intro";
-import { ContentColumn } from "../../components/text";
+    SimpleHeading,
+    ContentColumn,
+} from "../../components/modules";
 
 import "../../styles/global.css";
 

@@ -1,7 +1,10 @@
 import React from "react";
 
-import { SimpleImage } from "../../components/intro";
-import { ImageColumn, ScrollingBanner } from "../../components/image";
+import { 
+    SimpleImage,
+    ImageColumn,
+    ScrollingBanner,
+} from "../../components/modules";
 
 import { ImageSet } from "../../lib/utils";
 

@@ -1,8 +1,10 @@
 import React from 'react'
 
-import { ImageDesc } from '../../components/intro'
-import { ImageColumn } from '../../components/image'
-import { ContentColumn } from '../../components/text'
+import { 
+    ImageDesc,
+    ContentColumn,
+    ImageColumn
+} from '../../components/modules'
 
 import '../../styles/global.css'
 
