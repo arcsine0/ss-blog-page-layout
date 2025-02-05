@@ -1,0 +1,39 @@
+@tailwind base; 
+@tailwind components;
+@tailwind utilities;
+
+body {
+    width: 100%;
+    @apply font-usual
+}
+.fieldInput {
+    @apply w-full lg:w-[400px] 2xl:w-[72%] !mb-5;
+    border-bottom: 1px solid #C9C9C9;
+}
+.fieldInput:focus {
+    border-bottom: 1px solid #3253D6 !important;
+}
+.formLabel {
+    @apply text-GerdaElectricBlue text-formLabels lg:w-[400px] 2xl:w-[72%] tracking-wide;
+}
+.fieldInput:focus-visible {
+    outline: none;
+}
+.divBorder {
+    @apply relative rounded-tl-[10px] rounded-bl-[10px] rounded-tr-[10px] bg-transparent;
+    border-bottom: 2px solid #DFDC00;
+    border-left: 2px solid #DFDC00;
+    border-top: 2px solid #DFDC00;
+}
+
+.divBorder:before{
+    @apply absolute right-0 top-0 h-[82%] w-5; 
+    content: "";
+    border-right: 2px solid #DFDC00;
+    border-radius: 10px 10px 0px 0px;
+}
+.btn-contact-cta:after{
+    @apply absolute w-[192px] h-[52px] z-10 mt-[-4%] ml-[-35px] lg:my-[-15px] lg:ml-[-90px];
+    content: "";
+    background: url('../images/btn-bg.png') no-repeat;
+}
